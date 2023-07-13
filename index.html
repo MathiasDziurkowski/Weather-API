@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9331c80f5d.js" crossorigin="anonymous"></script>
+    <title>Weather API</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-logo">
+        <img src="/assets/weather-logo.png" alt="" class="logo">
+        <h1>WeatherAPI</h1>
+        </div>
+        <p>Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
+    </header>
+    <main>
+    <div class="info">
+    <input type="text" id="cidade" placeholder="Digite a sua cidade" class="cidade">
+    <input type="button" value="Confirmar" id="confirmar">
+    <div id="erro"></div>
+    <div id="infoClima"></div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="cabecalho-logo">
+            <img src="/assets/weather-logo.png" alt="" class="logo">
+            <h1>WeatherAPI</h1>
+        </div>
+        <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+        <p>Mathias Dziurkowski, 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
